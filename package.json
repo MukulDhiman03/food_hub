@@ -1,0 +1,33 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "myApp",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukulDhiman03/reactJs.git"
+  },
+  "author": "Mukul Dhiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukulDhiman03/reactJs/issues"
+  },
+  "homepage": "https://github.com/MukulDhiman03/reactJs#readme",
+  "dependencies": {
+    "parcel": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "process": "^0.11.10"
+  },
+  "browsweList": [
+    "last ten version of google chrome"
+  ]
+}
