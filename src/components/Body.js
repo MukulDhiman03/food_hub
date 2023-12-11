@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { restaurantList } from "../config";
 import RestrauntCard from "./RestaurantCard";
 
@@ -12,6 +12,11 @@ function filterData(restaurants, input) {
 const Body = () => {
   const [searchInput, setSearchInput] = useState("");
   const [restaurants, setReataurants] = useState(restaurantList);
+
+  useEffect(() => {
+    console.log("Render");
+  }, [searchInput]);
+
   return (
     <>
       <div className="search-container">
